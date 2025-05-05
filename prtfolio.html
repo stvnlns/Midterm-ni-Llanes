@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: black;
+      color: #e0e0f0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    nav {
+      background-color: #121226;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+    nav .nav-link {
+      color: #00ffe1 !important;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav .nav-link:hover {
+      color: #00ff91 !important;
+    }
+    .intro-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #1f1f3c, #2e2e6d);
+  color: #00ffe1;
+  border-radius: 12px;
+  border: 2px solid #00ffe1;
+  box-shadow: 0 4px 20px rgba(0,255,225,0.2);
+  max-width: 700px;     
+  margin: 60px auto; 
+    }
+    .intro-text {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .intro-img-placeholder {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+      border: 3px solid #00ffe1;
+    }
+    .intro-img-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    section {
+      background-color: #1a1a2e;
+      padding: 40px;
+      margin: 40px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,255,225,0.05);
+      border: 1px solid #2e2e6d;
+      max-width: 800px;
+    }
+    h1, h2, h5 {
+      font-weight: 600;
+    }
+    h2 {
+      color: #00ffe1;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #2e2e6d;
+      padding-bottom: 10px;
+    }
+    h5 {
+      color: #00ff91;
+      margin-top: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #121226;
+      color: #00ffe1;
+      margin-top: 40px;
+      border-top: 4px solid #2e2e6d;
+    }
+    .nav-center {
+      display: flex;
+      justify-content: center;
+    }
+    img.geek-bg {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container nav-center">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About Me</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contacts">Contacts</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5" id="home">
+    <div class="intro-section" data-aos="fade-up">
+      <div class="intro-text">
+        <h1>Hello I'm <span style="border-bottom: 1px dashed #ccc; color: #00ffe1;">Steven Richard Llanes</span></h1>
+        <p>I'm an Information Technologist and a Data Analyst.</p>
+      </div>
+      <div class="intro-img-placeholder mx-auto">
+        <img src="ls.jpeg" alt="ls.jpeg">
+      </div>
+    </div>
+
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>I'm a 2026 National University Lipa graduate, I graduated with a Bachelor of Science in Information Technology, specializing in Web and Application Development. I have practical expertise building and creating cutting-edge software solutions, such as enterprise-level systems, mobile apps, and online applications, throughout my academic career.</p>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <ul>
+        <li>Online Student Management System</li>
+        <li>E-commerce Website for Local Businesses</li>
+        <li>Mobile App for Appointment Booking</li>
+      </ul>
+    </section>
+
+    <section id="skills" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="d-flex flex-wrap justify-content-between">
+        <div class="me-4">
+          <h5>Front-End</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Back-End</h5>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>PHP</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" data-aos="fade-up">
+      <h2>Contacts</h2>
+      <ul>
+        <li>Phone: 09619368133</li>
+        <li>Email: stevenllanes302@gmail.com</li>
+        <li>Facebook: facebook.com/steven richard</li>
+        <li>X: x.com/stvn</li>
+        <li>Instagram: instagram.com/stvn_llns</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    2025 Steven Richard Llanes | Web Development Final Project
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
